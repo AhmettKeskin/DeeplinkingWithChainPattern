@@ -48,5 +48,20 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
 
+    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
+        guard let query = URLContexts.first?.url.query else { return }
+        let params = createMap(from: query)
+        DeeplinkManager.shared.navigate(with: params)
+    }
+    
+    private func createMap(from query: String) -> [String: Any] {
+        let queryItems = query.components(separatedBy: "&")
+        var params = [String: Any]()
+        queryItems.forEach { (keyValue) in
+            let separatedItems = keyValue.components(separatedBy: "=")
+            params[separatedItems.first!] = separatedItems.last
+        }
+        return params
+    }
 }
 

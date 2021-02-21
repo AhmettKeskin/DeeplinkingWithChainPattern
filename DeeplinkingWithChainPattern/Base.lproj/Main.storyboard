@@ -16,18 +16,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Homepage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SPr-6h-S1s">
-                                <rect key="frame" x="165" y="437.5" width="84" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Homepage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SPr-6h-S1s">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="SPr-6h-S1s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1ex-a5-L1g"/>
-                            <constraint firstItem="SPr-6h-S1s" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VGf-Xy-rXg"/>
+                            <constraint firstItem="SPr-6h-S1s" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="B3P-fX-hEP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SPr-6h-S1s" secondAttribute="trailing" id="EEJ-Yt-oqe"/>
+                            <constraint firstItem="SPr-6h-S1s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hYo-IX-32C"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SPr-6h-S1s" secondAttribute="bottom" id="tyN-dj-dGM"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="U9v-ja-HdG"/>
@@ -44,18 +47,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Homepage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hM3-SQ-Ups">
-                                <rect key="frame" x="165" y="437.5" width="84" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Detail Page" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nxi-Eb-Ttb">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Z5K-WK-bng"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="hM3-SQ-Ups" firstAttribute="centerY" secondItem="XHj-ol-zPg" secondAttribute="centerY" id="3kw-g8-uCa"/>
-                            <constraint firstItem="hM3-SQ-Ups" firstAttribute="centerX" secondItem="XHj-ol-zPg" secondAttribute="centerX" id="Nz7-rI-ZMm"/>
+                            <constraint firstItem="Z5K-WK-bng" firstAttribute="bottom" secondItem="nxi-Eb-Ttb" secondAttribute="bottom" id="Bes-o6-gxH"/>
+                            <constraint firstItem="nxi-Eb-Ttb" firstAttribute="trailing" secondItem="Z5K-WK-bng" secondAttribute="trailing" id="SjL-Pv-9bp"/>
+                            <constraint firstItem="nxi-Eb-Ttb" firstAttribute="leading" secondItem="Z5K-WK-bng" secondAttribute="leading" id="cRN-ux-EtD"/>
+                            <constraint firstItem="nxi-Eb-Ttb" firstAttribute="top" secondItem="Z5K-WK-bng" secondAttribute="top" id="uDe-zW-GSj"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -71,18 +77,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ProductDetailPage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z14-68-TuT">
-                                <rect key="frame" x="136" y="437.5" width="142" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Detail Page" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ji-LI-0bA">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9NL-U3-xhd"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="z14-68-TuT" firstAttribute="centerY" secondItem="0S6-mL-bUQ" secondAttribute="centerY" id="H7q-6b-NmU"/>
-                            <constraint firstItem="z14-68-TuT" firstAttribute="centerX" secondItem="0S6-mL-bUQ" secondAttribute="centerX" id="kf3-8S-vTW"/>
+                            <constraint firstItem="9NL-U3-xhd" firstAttribute="bottom" secondItem="9ji-LI-0bA" secondAttribute="bottom" id="8hY-4E-TB3"/>
+                            <constraint firstItem="9ji-LI-0bA" firstAttribute="top" secondItem="9NL-U3-xhd" secondAttribute="top" id="AoC-3r-Btp"/>
+                            <constraint firstItem="9ji-LI-0bA" firstAttribute="leading" secondItem="0S6-mL-bUQ" secondAttribute="leading" id="EMB-xe-6JY"/>
+                            <constraint firstItem="9NL-U3-xhd" firstAttribute="trailing" secondItem="9ji-LI-0bA" secondAttribute="trailing" id="FLt-Dp-41W"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -112,6 +121,15 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

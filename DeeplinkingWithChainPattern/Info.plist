@@ -62,5 +62,16 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.tangerine</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>chain-pattern</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
