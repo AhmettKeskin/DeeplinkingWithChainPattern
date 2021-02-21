@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		591B682C25E29AC50003410A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B682B25E29AC50003410A /* AppDelegate.swift */; };
 		591B682E25E29AC50003410A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B682D25E29AC50003410A /* SceneDelegate.swift */; };
-		591B683025E29AC50003410A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B682F25E29AC50003410A /* ViewController.swift */; };
 		591B683325E29AC50003410A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591B683125E29AC50003410A /* Main.storyboard */; };
 		591B683525E29AC50003410A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591B683425E29AC50003410A /* Assets.xcassets */; };
 		591B683825E29AC50003410A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591B683625E29AC50003410A /* LaunchScreen.storyboard */; };
 		591B684325E29AC60003410A /* DeeplinkingWithChainPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B684225E29AC60003410A /* DeeplinkingWithChainPatternTests.swift */; };
 		591B684E25E29AC60003410A /* DeeplinkingWithChainPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B684D25E29AC60003410A /* DeeplinkingWithChainPatternUITests.swift */; };
+		591B686425E29FF70003410A /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B686325E29FF70003410A /* ProductDetailViewController.swift */; };
+		591B686925E2A0140003410A /* OrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B686825E2A0140003410A /* OrderDetailViewController.swift */; };
+		591B686E25E2A0CF0003410A /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B686D25E2A0CF0003410A /* HomepageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		591B682825E29AC50003410A /* DeeplinkingWithChainPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeeplinkingWithChainPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		591B682B25E29AC50003410A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		591B682D25E29AC50003410A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		591B682F25E29AC50003410A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		591B683225E29AC50003410A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		591B683425E29AC50003410A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		591B683725E29AC50003410A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		591B684925E29AC60003410A /* DeeplinkingWithChainPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeeplinkingWithChainPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		591B684D25E29AC60003410A /* DeeplinkingWithChainPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkingWithChainPatternUITests.swift; sourceTree = "<group>"; };
 		591B684F25E29AC60003410A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		591B686325E29FF70003410A /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		591B686825E2A0140003410A /* OrderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailViewController.swift; sourceTree = "<group>"; };
+		591B686D25E2A0CF0003410A /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,10 @@
 		591B682A25E29AC50003410A /* DeeplinkingWithChainPattern */ = {
 			isa = PBXGroup;
 			children = (
+				591B685F25E29FAC0003410A /* Deeplink */,
+				591B685E25E29FA50003410A /* ViewControllers */,
 				591B682B25E29AC50003410A /* AppDelegate.swift */,
 				591B682D25E29AC50003410A /* SceneDelegate.swift */,
-				591B682F25E29AC50003410A /* ViewController.swift */,
 				591B683125E29AC50003410A /* Main.storyboard */,
 				591B683425E29AC50003410A /* Assets.xcassets */,
 				591B683625E29AC50003410A /* LaunchScreen.storyboard */,
@@ -126,6 +131,23 @@
 				591B684F25E29AC60003410A /* Info.plist */,
 			);
 			path = DeeplinkingWithChainPatternUITests;
+			sourceTree = "<group>";
+		};
+		591B685E25E29FA50003410A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				591B686D25E2A0CF0003410A /* HomepageViewController.swift */,
+				591B686325E29FF70003410A /* ProductDetailViewController.swift */,
+				591B686825E2A0140003410A /* OrderDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		591B685F25E29FAC0003410A /* Deeplink */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Deeplink;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				591B683025E29AC50003410A /* ViewController.swift in Sources */,
+				591B686925E2A0140003410A /* OrderDetailViewController.swift in Sources */,
 				591B682C25E29AC50003410A /* AppDelegate.swift in Sources */,
 				591B682E25E29AC50003410A /* SceneDelegate.swift in Sources */,
+				591B686425E29FF70003410A /* ProductDetailViewController.swift in Sources */,
+				591B686E25E2A0CF0003410A /* HomepageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
