@@ -19,6 +19,7 @@
 		591B686E25E2A0CF0003410A /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B686D25E2A0CF0003410A /* HomepageViewController.swift */; };
 		591B687625E2A2AF0003410A /* DeeplinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B687525E2A2AF0003410A /* DeeplinkManager.swift */; };
 		591B687C25E2A2E80003410A /* DeeplinkableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B687B25E2A2E80003410A /* DeeplinkableItem.swift */; };
+		591B688425E2A40F0003410A /* ProductDetailDeeplinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B688325E2A40F0003410A /* ProductDetailDeeplinkItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		591B686D25E2A0CF0003410A /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
 		591B687525E2A2AF0003410A /* DeeplinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkManager.swift; sourceTree = "<group>"; };
 		591B687B25E2A2E80003410A /* DeeplinkableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkableItem.swift; sourceTree = "<group>"; };
+		591B688325E2A40F0003410A /* ProductDetailDeeplinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailDeeplinkItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 		591B687A25E2A2BF0003410A /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				591B688325E2A40F0003410A /* ProductDetailDeeplinkItem.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				591B686925E2A0140003410A /* OrderDetailViewController.swift in Sources */,
+				591B688425E2A40F0003410A /* ProductDetailDeeplinkItem.swift in Sources */,
 				591B682C25E29AC50003410A /* AppDelegate.swift in Sources */,
 				591B682E25E29AC50003410A /* SceneDelegate.swift in Sources */,
 				591B687625E2A2AF0003410A /* DeeplinkManager.swift in Sources */,

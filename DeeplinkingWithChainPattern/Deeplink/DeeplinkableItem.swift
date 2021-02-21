@@ -9,6 +9,6 @@ import Foundation
 import UIKit
 
 protocol DeeplinkableItem {
-    func isSatisfied(by params: [String: String]) -> Bool
+    func isSatisfied(by params: [String: Any]) -> Bool
     func execute(_ window: UIWindow, params: [String: Any])
 }
