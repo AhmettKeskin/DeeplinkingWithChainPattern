@@ -20,6 +20,7 @@
 		591B687625E2A2AF0003410A /* DeeplinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B687525E2A2AF0003410A /* DeeplinkManager.swift */; };
 		591B687C25E2A2E80003410A /* DeeplinkableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B687B25E2A2E80003410A /* DeeplinkableItem.swift */; };
 		591B688425E2A40F0003410A /* ProductDetailDeeplinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B688325E2A40F0003410A /* ProductDetailDeeplinkItem.swift */; };
+		591B688C25E2A65A0003410A /* OrderDetailDeeplinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B688B25E2A65A0003410A /* OrderDetailDeeplinkItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		591B687525E2A2AF0003410A /* DeeplinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkManager.swift; sourceTree = "<group>"; };
 		591B687B25E2A2E80003410A /* DeeplinkableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkableItem.swift; sourceTree = "<group>"; };
 		591B688325E2A40F0003410A /* ProductDetailDeeplinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailDeeplinkItem.swift; sourceTree = "<group>"; };
+		591B688B25E2A65A0003410A /* OrderDetailDeeplinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailDeeplinkItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				591B688325E2A40F0003410A /* ProductDetailDeeplinkItem.swift */,
+				591B688B25E2A65A0003410A /* OrderDetailDeeplinkItem.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				591B682C25E29AC50003410A /* AppDelegate.swift in Sources */,
 				591B682E25E29AC50003410A /* SceneDelegate.swift in Sources */,
 				591B687625E2A2AF0003410A /* DeeplinkManager.swift in Sources */,
+				591B688C25E2A65A0003410A /* OrderDetailDeeplinkItem.swift in Sources */,
 				591B686425E29FF70003410A /* ProductDetailViewController.swift in Sources */,
 				591B686E25E2A0CF0003410A /* HomepageViewController.swift in Sources */,
 				591B687C25E2A2E80003410A /* DeeplinkableItem.swift in Sources */,
