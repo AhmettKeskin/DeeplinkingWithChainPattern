@@ -18,6 +18,7 @@ struct ProductDetailDeeplinkItem: DeeplinkableItem {
         guard let productId = params["productId"] as? String, !productId.isEmpty else { return }
         let productDetail = UIStoryboard(name: "Main",
                                          bundle: nil).instantiateViewController(withIdentifier: "ProductDetailViewController") as! ProductDetailViewController
+        productDetail.productId = productId
         let navigationController = window.rootViewController as? UINavigationController
         navigationController?.pushViewController(productDetail,
                                                  animated: true)

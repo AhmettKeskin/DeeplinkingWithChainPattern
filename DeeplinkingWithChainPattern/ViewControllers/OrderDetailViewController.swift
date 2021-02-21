@@ -9,6 +9,8 @@ import UIKit
 
 class OrderDetailViewController: UIViewController {
 
+    var orderId: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -18,6 +18,7 @@ struct OrderDetailDeeplinkItem: DeeplinkableItem {
         guard let orderId = params["orderId"] as? String, !orderId.isEmpty else { return }
         let orderDetail = UIStoryboard(name: "Main",
                                          bundle: nil).instantiateViewController(withIdentifier: "OrderDetailViewController") as! OrderDetailViewController
+        orderDetail.orderId = orderId
         let navigationController = window.rootViewController as? UINavigationController
         navigationController?.pushViewController(orderDetail,
                                                  animated: true)
