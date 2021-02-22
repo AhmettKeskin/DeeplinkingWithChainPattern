@@ -12,7 +12,6 @@
 		591B683325E29AC50003410A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591B683125E29AC50003410A /* Main.storyboard */; };
 		591B683525E29AC50003410A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591B683425E29AC50003410A /* Assets.xcassets */; };
 		591B683825E29AC50003410A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591B683625E29AC50003410A /* LaunchScreen.storyboard */; };
-		591B684E25E29AC60003410A /* DeeplinkingWithChainPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B684D25E29AC60003410A /* DeeplinkingWithChainPatternUITests.swift */; };
 		591B686425E29FF70003410A /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B686325E29FF70003410A /* ProductDetailViewController.swift */; };
 		591B686925E2A0140003410A /* OrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B686825E2A0140003410A /* OrderDetailViewController.swift */; };
 		591B686E25E2A0CF0003410A /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B686D25E2A0CF0003410A /* HomepageViewController.swift */; };
@@ -21,17 +20,11 @@
 		591B688425E2A40F0003410A /* ProductDetailDeeplinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B688325E2A40F0003410A /* ProductDetailDeeplinkItem.swift */; };
 		591B688C25E2A65A0003410A /* OrderDetailDeeplinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B688B25E2A65A0003410A /* OrderDetailDeeplinkItem.swift */; };
 		591B689125E4322D0003410A /* ProductDetailDeeplinkItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B689025E4322D0003410A /* ProductDetailDeeplinkItemTests.swift */; };
+		591B689C25E437B00003410A /* OrderDetailDeeplinkItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B689B25E437B00003410A /* OrderDetailDeeplinkItemTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		591B683F25E29AC60003410A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 591B682025E29AC50003410A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 591B682725E29AC50003410A;
-			remoteInfo = DeeplinkingWithChainPattern;
-		};
-		591B684A25E29AC60003410A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 591B682025E29AC50003410A /* Project object */;
 			proxyType = 1;
@@ -50,9 +43,6 @@
 		591B683925E29AC50003410A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		591B683E25E29AC60003410A /* DeeplinkingWithChainPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeeplinkingWithChainPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		591B684425E29AC60003410A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		591B684925E29AC60003410A /* DeeplinkingWithChainPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeeplinkingWithChainPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		591B684D25E29AC60003410A /* DeeplinkingWithChainPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkingWithChainPatternUITests.swift; sourceTree = "<group>"; };
-		591B684F25E29AC60003410A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		591B686325E29FF70003410A /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
 		591B686825E2A0140003410A /* OrderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailViewController.swift; sourceTree = "<group>"; };
 		591B686D25E2A0CF0003410A /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +51,7 @@
 		591B688325E2A40F0003410A /* ProductDetailDeeplinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailDeeplinkItem.swift; sourceTree = "<group>"; };
 		591B688B25E2A65A0003410A /* OrderDetailDeeplinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailDeeplinkItem.swift; sourceTree = "<group>"; };
 		591B689025E4322D0003410A /* ProductDetailDeeplinkItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailDeeplinkItemTests.swift; sourceTree = "<group>"; };
+		591B689B25E437B00003410A /* OrderDetailDeeplinkItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailDeeplinkItemTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,13 +69,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		591B684625E29AC60003410A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -93,7 +77,6 @@
 			children = (
 				591B682A25E29AC50003410A /* DeeplinkingWithChainPattern */,
 				591B684125E29AC60003410A /* DeeplinkingWithChainPatternTests */,
-				591B684C25E29AC60003410A /* DeeplinkingWithChainPatternUITests */,
 				591B682925E29AC50003410A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,7 +86,6 @@
 			children = (
 				591B682825E29AC50003410A /* DeeplinkingWithChainPattern.app */,
 				591B683E25E29AC60003410A /* DeeplinkingWithChainPatternTests.xctest */,
-				591B684925E29AC60003410A /* DeeplinkingWithChainPatternUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,18 +109,10 @@
 			isa = PBXGroup;
 			children = (
 				591B689025E4322D0003410A /* ProductDetailDeeplinkItemTests.swift */,
+				591B689B25E437B00003410A /* OrderDetailDeeplinkItemTests.swift */,
 				591B684425E29AC60003410A /* Info.plist */,
 			);
 			path = DeeplinkingWithChainPatternTests;
-			sourceTree = "<group>";
-		};
-		591B684C25E29AC60003410A /* DeeplinkingWithChainPatternUITests */ = {
-			isa = PBXGroup;
-			children = (
-				591B684D25E29AC60003410A /* DeeplinkingWithChainPatternUITests.swift */,
-				591B684F25E29AC60003410A /* Info.plist */,
-			);
-			path = DeeplinkingWithChainPatternUITests;
 			sourceTree = "<group>";
 		};
 		591B685E25E29FA50003410A /* ViewControllers */ = {
@@ -208,24 +182,6 @@
 			productReference = 591B683E25E29AC60003410A /* DeeplinkingWithChainPatternTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		591B684825E29AC60003410A /* DeeplinkingWithChainPatternUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 591B685825E29AC60003410A /* Build configuration list for PBXNativeTarget "DeeplinkingWithChainPatternUITests" */;
-			buildPhases = (
-				591B684525E29AC60003410A /* Sources */,
-				591B684625E29AC60003410A /* Frameworks */,
-				591B684725E29AC60003410A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				591B684B25E29AC60003410A /* PBXTargetDependency */,
-			);
-			name = DeeplinkingWithChainPatternUITests;
-			productName = DeeplinkingWithChainPatternUITests;
-			productReference = 591B684925E29AC60003410A /* DeeplinkingWithChainPatternUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -239,10 +195,6 @@
 						CreatedOnToolsVersion = 12.2;
 					};
 					591B683D25E29AC60003410A = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = 591B682725E29AC50003410A;
-					};
-					591B684825E29AC60003410A = {
 						CreatedOnToolsVersion = 12.2;
 						TestTargetID = 591B682725E29AC50003410A;
 					};
@@ -263,7 +215,6 @@
 			targets = (
 				591B682725E29AC50003410A /* DeeplinkingWithChainPattern */,
 				591B683D25E29AC60003410A /* DeeplinkingWithChainPatternTests */,
-				591B684825E29AC60003410A /* DeeplinkingWithChainPatternUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -280,13 +231,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		591B683C25E29AC60003410A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		591B684725E29AC60003410A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -316,15 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				591B689C25E437B00003410A /* OrderDetailDeeplinkItemTests.swift in Sources */,
 				591B689125E4322D0003410A /* ProductDetailDeeplinkItemTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		591B684525E29AC60003410A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				591B684E25E29AC60003410A /* DeeplinkingWithChainPatternUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,11 +272,6 @@
 			isa = PBXTargetDependency;
 			target = 591B682725E29AC50003410A /* DeeplinkingWithChainPattern */;
 			targetProxy = 591B683F25E29AC60003410A /* PBXContainerItemProxy */;
-		};
-		591B684B25E29AC60003410A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 591B682725E29AC50003410A /* DeeplinkingWithChainPattern */;
-			targetProxy = 591B684A25E29AC60003410A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -561,46 +493,6 @@
 			};
 			name = Release;
 		};
-		591B685925E29AC60003410A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6P6V53T36J;
-				INFOPLIST_FILE = DeeplinkingWithChainPatternUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tangerine.DeeplinkingWithChainPatternUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DeeplinkingWithChainPattern;
-			};
-			name = Debug;
-		};
-		591B685A25E29AC60003410A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6P6V53T36J;
-				INFOPLIST_FILE = DeeplinkingWithChainPatternUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tangerine.DeeplinkingWithChainPatternUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DeeplinkingWithChainPattern;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -627,15 +519,6 @@
 			buildConfigurations = (
 				591B685625E29AC60003410A /* Debug */,
 				591B685725E29AC60003410A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		591B685825E29AC60003410A /* Build configuration list for PBXNativeTarget "DeeplinkingWithChainPatternUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				591B685925E29AC60003410A /* Debug */,
-				591B685A25E29AC60003410A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
