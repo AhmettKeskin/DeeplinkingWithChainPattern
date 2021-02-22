@@ -12,7 +12,6 @@
 		591B683325E29AC50003410A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591B683125E29AC50003410A /* Main.storyboard */; };
 		591B683525E29AC50003410A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591B683425E29AC50003410A /* Assets.xcassets */; };
 		591B683825E29AC50003410A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591B683625E29AC50003410A /* LaunchScreen.storyboard */; };
-		591B684325E29AC60003410A /* DeeplinkingWithChainPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B684225E29AC60003410A /* DeeplinkingWithChainPatternTests.swift */; };
 		591B684E25E29AC60003410A /* DeeplinkingWithChainPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B684D25E29AC60003410A /* DeeplinkingWithChainPatternUITests.swift */; };
 		591B686425E29FF70003410A /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B686325E29FF70003410A /* ProductDetailViewController.swift */; };
 		591B686925E2A0140003410A /* OrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B686825E2A0140003410A /* OrderDetailViewController.swift */; };
@@ -21,6 +20,7 @@
 		591B687C25E2A2E80003410A /* DeeplinkableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B687B25E2A2E80003410A /* DeeplinkableItem.swift */; };
 		591B688425E2A40F0003410A /* ProductDetailDeeplinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B688325E2A40F0003410A /* ProductDetailDeeplinkItem.swift */; };
 		591B688C25E2A65A0003410A /* OrderDetailDeeplinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B688B25E2A65A0003410A /* OrderDetailDeeplinkItem.swift */; };
+		591B689125E4322D0003410A /* ProductDetailDeeplinkItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B689025E4322D0003410A /* ProductDetailDeeplinkItemTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,6 @@
 		591B683725E29AC50003410A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		591B683925E29AC50003410A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		591B683E25E29AC60003410A /* DeeplinkingWithChainPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeeplinkingWithChainPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		591B684225E29AC60003410A /* DeeplinkingWithChainPatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkingWithChainPatternTests.swift; sourceTree = "<group>"; };
 		591B684425E29AC60003410A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		591B684925E29AC60003410A /* DeeplinkingWithChainPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeeplinkingWithChainPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		591B684D25E29AC60003410A /* DeeplinkingWithChainPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkingWithChainPatternUITests.swift; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		591B687B25E2A2E80003410A /* DeeplinkableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkableItem.swift; sourceTree = "<group>"; };
 		591B688325E2A40F0003410A /* ProductDetailDeeplinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailDeeplinkItem.swift; sourceTree = "<group>"; };
 		591B688B25E2A65A0003410A /* OrderDetailDeeplinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailDeeplinkItem.swift; sourceTree = "<group>"; };
+		591B689025E4322D0003410A /* ProductDetailDeeplinkItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailDeeplinkItemTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +126,7 @@
 		591B684125E29AC60003410A /* DeeplinkingWithChainPatternTests */ = {
 			isa = PBXGroup;
 			children = (
-				591B684225E29AC60003410A /* DeeplinkingWithChainPatternTests.swift */,
+				591B689025E4322D0003410A /* ProductDetailDeeplinkItemTests.swift */,
 				591B684425E29AC60003410A /* Info.plist */,
 			);
 			path = DeeplinkingWithChainPatternTests;
@@ -316,7 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				591B684325E29AC60003410A /* DeeplinkingWithChainPatternTests.swift in Sources */,
+				591B689125E4322D0003410A /* ProductDetailDeeplinkItemTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
